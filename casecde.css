@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "caveat";
+    background-color: #f5f3eb;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: grey;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 18px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #285943;
+}
+
+section {
+    padding: 55px;
+}
+
+img {
+    border-radius: 500px;
+    height: 200px;
+    width: 200px;
+}
+
+#home {
+    text-align: center;
+
+}
+
+#home h1 {
+    font-size: 38px;
+    color: #285943;
+    margin-bottom: 15px;
+}
+
+#home p {
+    font-size: 17px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.button {
+
+    background-color: #285943;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #285943;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.about {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 850px;
+    margin: auto;
+}
+
+.about p {
+    line-height: 1.8;
+    color: #555;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    width: 260px;
+    border-radius: 8px;
+    border: 1px solid #e5e5df;
+}
+
+.card h3 {
+    color: #285943;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.7;
+}
+
+#contact {
+    text-align: center;
+    background-color: white;
+}
+
+#contact p {
+    margin: 12px;
+}
+
+#contact a {
+    color: #285943;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #285943;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    #home h1 {
+        font-size: 29px;
+    }
+}
